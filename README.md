@@ -20,15 +20,40 @@ Commit your code regularly and meaningfully.
 ## Interview Questions
 ### (please edit this file and write your answer below each question.)
 
+
+
+
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe acessibility on the web to someone new to programming?
+
+    Acessibility on the web is the practice of making a website usable by anyone including those with disabilities, such as blindness, to engage and easily access information on your website. For example, an accessibile website would allow screenreaders to fully engage with the website and read out semantic html, including pictures, to a blind user for a better experience on the website.
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+    
+    - Using as much semantic HTML as possible.
+    - Images that include 'Alt text' in the html that describe the image.
+    - Using colors that make those with color deficiency or color blindness read and view the page with more ease.
+
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+    Variables are information/data that are stored to be used or changed in the programming. Variables also help the label data in an organized matter and is used throughout the program whereever the variable is called for.
+
+
 4. What is the purpose of using functions in code?
+
+    Functions allow the program to perform tasks. Functions recieve data and return a result. A functions are coded to perform a task and are reusable throughout the program.  
+
 5. How do you access a key inside of an object inside of an array?
 
+    Developers can access a key inside of an object using the dot notation.
+
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
+
+
+
+
 
 ## Instructions
 
