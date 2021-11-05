@@ -244,12 +244,12 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 
 function get20s() {
-//   const diedArray = [];
-//   for (i = 0; i < array.length; i++){
-//     if ()
-//   }
-// }
-//   return diedArray;
+  const diedArray = [];
+  for (i = 0; i < array.length; i++){
+    if ()
+  }
+}
+  return diedArray;
 }
 
 
@@ -289,11 +289,21 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/) {
-  /*Your Code Here*/
+function addArtist(array) {
+  const newArtist = { 
+   id: 20,
+   name: 'Danny Chui', 
+   years: '1988 - 2021',
+   genre:'Web Design', 
+   nationality: 'Chinese',
+   bio: 'Danny Chui was born 14 December 1988 and is currently still living in the United States. He revolutionized modern painting. With his unique techniques and boundless creativity. He has mastered his craft and is a world wide phenomenon' 
+ };  
+const newArray = array.push(newArtist);
+return array
 }
 
 
+console.log(addArtist(artists))
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 
@@ -302,9 +312,18 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(/*Your Code Here*/) {
-  /*Your Code Here*/
+function lotsOfArt(array) {
+  const newArray = [];
+  for( i = 0; i < array.length; i++){
+    if(array[i].paintings >= 100) {
+      newArray.push(array[i].name);
+    }
+  }
+  return newArray
 }
+
+console.log(lotsOfArt(artists))
+
 
 
 /* ***** END OF TASKS ***** */
